@@ -1,0 +1,42 @@
+body{
+    background: #222;
+    margin: 0;
+    padding: 0;
+    color: #DDD;
+    font-family: serif;
+    height: 7000px;
+    overflow-x: hidden;
+}
+
+.cam-img{
+    position: fixed;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    z-index: 1;
+}
+
+.cam-para{
+    font-size: 5rem;
+}
+
+.para-main{
+    position: fixed;
+    top: 50%;
+    left: 1000px;
+    transform: translateY(-50%);
+    z-index: -1;
+    white-space: nowrap;
+}
+
+.para-stroke{
+    position: fixed;
+    top: 50%;
+    left: 1000px;
+    transform: translateY(-50%);
+    z-index: 3;
+    white-space: nowrap;
+    color: transparent;
+    -webkit-text-stroke: 2px #DDD;
+}
