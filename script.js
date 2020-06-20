@@ -1,6 +1,6 @@
 $(document).on("scroll", function(){
-    $(".para-main").css("left", Math.max(1000 - 0.35*window.scrollY, -5000) + "px");
+    $(".para-main").css("left", Math.max(100 - 0.05*window.scrollY, -100) + "%");
 })
 $(document).on("scroll", function(){
-    $(".para-stroke").css("left", Math.max(1000 - 0.35*window.scrollY, -5000) + "px");
+    $(".para-stroke").css("left", Math.max(100 - 0.05*window.scrollY, -100) + "%");
 })

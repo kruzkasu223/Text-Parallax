@@ -4,7 +4,7 @@ body{
     padding: 0;
     color: #DDD;
     font-family: serif;
-    height: 7000px;
+    height: 6000px;
     overflow-x: hidden;
 }
 
@@ -24,7 +24,7 @@ body{
 .para-main{
     position: fixed;
     top: 50%;
-    left: 1000px;
+    left: 100%;
     transform: translateY(-50%);
     z-index: -1;
     white-space: nowrap;
@@ -33,7 +33,7 @@ body{
 .para-stroke{
     position: fixed;
     top: 50%;
-    left: 1000px;
+    left: 100%;
     transform: translateY(-50%);
     z-index: 3;
     white-space: nowrap;
